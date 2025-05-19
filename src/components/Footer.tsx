@@ -13,9 +13,8 @@ const Footer = () => {
           Domain-Driven Design, and scalable architecture.
         </p>
         <div className="mt-4 flex justify-center gap-4">
-          <a href="https://github.com" className="text-muted-foreground hover:text-primary transition-colors">GitHub</a>
-          <a href="https://linkedin.com" className="text-muted-foreground hover:text-primary transition-colors">LinkedIn</a>
-          <a href="https://twitter.com" className="text-muted-foreground hover:text-primary transition-colors">Twitter</a>
+          <a href="https://github.com/runemalm" className="text-muted-foreground hover:text-primary transition-colors">GitHub</a>
+          <a href="mailto:david.runemalm@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">Email</a>
         </div>
       </div>
     </footer>

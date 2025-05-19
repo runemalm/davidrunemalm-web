@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Mail } from "lucide-react";
 import { toast } from "@/components/ui/sonner";
 
 const Contact = () => {
@@ -27,30 +27,19 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-primary" />
-                <a href="mailto:david@runemalm.com" className="hover:underline">
-                  david@runemalm.com
-                </a>
-              </div>
-              <div className="flex items-center">
-                <Linkedin className="h-5 w-5 mr-3 text-primary" />
-                <a 
-                  href="https://linkedin.com/in/davidrunemalm" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:underline"
-                >
-                  linkedin.com/in/davidrunemalm
+                <a href="mailto:david.runemalm@gmail.com" className="hover:underline">
+                  david.runemalm@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
                 <Github className="h-5 w-5 mr-3 text-primary" />
                 <a 
-                  href="https://github.com/davidrunemalm" 
+                  href="https://github.com/runemalm" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:underline"
                 >
-                  github.com/davidrunemalm
+                  github.com/runemalm
                 </a>
               </div>
             </div>
