@@ -21,7 +21,7 @@ const Projects = () => {
       tags: ["Open Source", "Python", "Dependency Injection", "Architecture"],
       github: "https://github.com/runemalm/py-dependency-injection",
       highlighted: true,
-      logo: <Package className="h-6 w-6 text-primary" strokeWidth={1.5} />,
+      logo: "https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj",
     },
     {
       title: "Open Banking POC",
@@ -30,7 +30,7 @@ const Projects = () => {
       tags: ["Fintech", "APIs", "Scalability", "Security", "Cloud"],
       github: "https://github.com/runemalm/open-banking-poc",
       highlighted: true,
-      logo: <Banknote className="h-6 w-6 text-primary" strokeWidth={1.5} />,
+      logo: "https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj",
     },
     {
       title: "Orientera.com",
