@@ -41,6 +41,13 @@ const Navbar = () => {
               </a>
             </NavigationMenuItem>
             <NavigationMenuItem>
+              <a href="#education" className={cn(
+                "group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground focus:outline-none"
+              )}>
+                Education
+              </a>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
               <a href="#contact" className={cn(
                 "group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground focus:outline-none"
               )}>
