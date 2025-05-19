@@ -42,8 +42,8 @@ const Projects = () => {
       logo: "https://orientera.com/icons/apple-touch-icon.png",
     },
     {
-      title: "Magma (formerly Matteappen)",
-      description: "An educational product for mathematics education using iPads in schools. Features interactive exercises, progress tracking, and personalized learning paths for students.",
+      title: "Matteappen",
+      description: "An educational product (now called Magma) for mathematics education using iPads in schools. Features interactive exercises, progress tracking, and personalized learning paths for students.",
       role: "Founder & Developer",
       tags: ["EdTech", "Startup", "iOS", "Education", "Mathematics"],
       link: "https://www.magma.se/",
