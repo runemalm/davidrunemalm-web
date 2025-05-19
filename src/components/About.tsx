@@ -36,7 +36,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-bold text-center mb-2">Entrepreneurship</h3>
                 <p className="text-muted-foreground text-center">
-                  Founded and developed Magma (formerly Matteappen), revolutionizing math education with iPads in schools.
+                  Founded and successfully exited Magma (formerly Matteappen), an edtech startup revolutionizing math education with iPads in schools.
                 </p>
               </CardContent>
             </Card>

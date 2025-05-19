@@ -42,7 +42,7 @@ const Experience = () => {
       year: "2015 - 2018",
       title: "Founder & CTO",
       organization: "Magma (Matteappen)",
-      description: "Founded and developed an educational technology startup focusing on mathematics education using iPads in schools.",
+      description: "Founded and successfully exited an educational technology startup focusing on mathematics education using iPads in schools.",
     },
     {
       year: "2013 - 2015",
