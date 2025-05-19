@@ -45,13 +45,13 @@ const ProjectCard = ({
         </div>
       )}
       <CardHeader className="flex flex-row items-center gap-4">
-        <Avatar className="h-12 w-12 border bg-muted">
+        <div className="h-12 w-12 rounded-full border bg-muted flex items-center justify-center overflow-hidden">
           {typeof logo === 'string' ? (
-            <AvatarImage src={logo} alt={`${title} logo`} />
+            <img src={logo} alt={`${title} logo`} className="h-full w-full object-cover" />
           ) : (
-            logo || <AvatarFallback>{getFallbackIcon()}</AvatarFallback>
+            logo || getFallbackIcon()
           )}
-        </Avatar>
+        </div>
         <div>
           <CardTitle>{title}</CardTitle>
           <CardDescription>{role}</CardDescription>
