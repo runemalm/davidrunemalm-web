@@ -12,6 +12,11 @@ const Footer = () => {
           Software Engineer with expertise in AI-driven applications, 
           Domain-Driven Design, and scalable architecture.
         </p>
+        <div className="mt-4 flex justify-center gap-4">
+          <a href="https://github.com" className="text-muted-foreground hover:text-primary transition-colors">GitHub</a>
+          <a href="https://linkedin.com" className="text-muted-foreground hover:text-primary transition-colors">LinkedIn</a>
+          <a href="https://twitter.com" className="text-muted-foreground hover:text-primary transition-colors">Twitter</a>
+        </div>
       </div>
     </footer>
   );
