@@ -1,6 +1,7 @@
 
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import { Code, Database, Box, Projector, Package } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -11,6 +12,7 @@ const Projects = () => {
       tags: ["Open Source", ".NET", "DDD", "C#", "Architecture"],
       github: "https://github.com/runemalm/OpenDDD.NET",
       highlighted: true,
+      logo: <Code className="h-6 w-6 text-primary" />,
     },
     {
       title: "py-dependency-injection",
@@ -19,6 +21,7 @@ const Projects = () => {
       tags: ["Open Source", "Python", "Dependency Injection", "Architecture"],
       github: "https://github.com/runemalm/py-dependency-injection",
       highlighted: true,
+      logo: <Package className="h-6 w-6 text-primary" />,
     },
     {
       title: "Open Banking POC",
@@ -27,6 +30,7 @@ const Projects = () => {
       tags: ["Fintech", "APIs", "Scalability", "Security", "Cloud"],
       github: "https://github.com/runemalm/open-banking-poc",
       highlighted: true,
+      logo: <Database className="h-6 w-6 text-primary" />,
     },
     {
       title: "Orientera.com",
@@ -35,6 +39,7 @@ const Projects = () => {
       tags: ["Mobile App", "Web App", "AI", "Sports Tech", "React", "Python"],
       link: "https://orientera.com",
       highlighted: true,
+      logo: <Box className="h-6 w-6 text-primary" />,
     },
     {
       title: "Magma (formerly Matteappen)",
@@ -43,6 +48,7 @@ const Projects = () => {
       tags: ["EdTech", "Startup", "iOS", "Education", "Mathematics"],
       link: "https://www.magma.se/",
       highlighted: true,
+      logo: <Projector className="h-6 w-6 text-primary" />,
     },
   ];
 

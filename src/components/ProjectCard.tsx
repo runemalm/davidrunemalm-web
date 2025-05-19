@@ -2,7 +2,8 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Package, Code, Database, Box, Projector } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export interface ProjectCardProps {
   title: string;
@@ -13,6 +14,7 @@ export interface ProjectCardProps {
   github?: string;
   image?: string;
   highlighted?: boolean;
+  logo?: string | React.ReactNode;
 }
 
 const ProjectCard = ({
@@ -24,7 +26,18 @@ const ProjectCard = ({
   github,
   image,
   highlighted = false,
+  logo,
 }: ProjectCardProps) => {
+  // Helper to determine which icon to show as fallback
+  const getFallbackIcon = () => {
+    const lowerTitle = title.toLowerCase();
+    if (lowerTitle.includes('ddd') || lowerTitle.includes('dependency')) return <Code className="h-6 w-6" />;
+    if (lowerTitle.includes('banking')) return <Database className="h-6 w-6" />;
+    if (lowerTitle.includes('orientera')) return <Box className="h-6 w-6" />;
+    if (lowerTitle.includes('magma') || lowerTitle.includes('matteappen')) return <Projector className="h-6 w-6" />;
+    return <Package className="h-6 w-6" />;
+  };
+  
   return (
     <Card className={highlighted ? "border-primary" : ""}>
       {image && (
@@ -36,9 +49,18 @@ const ProjectCard = ({
           />
         </div>
       )}
-      <CardHeader>
-        <CardTitle>{title}</CardTitle>
-        <CardDescription>{role}</CardDescription>
+      <CardHeader className="flex flex-row items-center gap-4">
+        <Avatar className="h-12 w-12 border bg-muted">
+          {typeof logo === 'string' ? (
+            <AvatarImage src={logo} alt={`${title} logo`} />
+          ) : (
+            logo || <AvatarFallback>{getFallbackIcon()}</AvatarFallback>
+          )}
+        </Avatar>
+        <div>
+          <CardTitle>{title}</CardTitle>
+          <CardDescription>{role}</CardDescription>
+        </div>
       </CardHeader>
       <CardContent>
         <p className="mb-4">{description}</p>
