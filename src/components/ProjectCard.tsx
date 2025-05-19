@@ -45,11 +45,19 @@ const ProjectCard = ({
         </div>
       )}
       <CardHeader className="flex flex-row items-center gap-4">
-        <Avatar className="h-12 w-12 border bg-muted">
+        <Avatar className="h-12 w-12 border bg-muted flex items-center justify-center">
           {typeof logo === 'string' ? (
-            <AvatarImage src={logo} alt={`${title} logo`} />
+            <AvatarImage src={logo} alt={`${title} logo`} className="object-contain p-1" />
           ) : (
-            logo || <AvatarFallback>{getFallbackIcon()}</AvatarFallback>
+            logo ? (
+              <div className="flex items-center justify-center h-full w-full">
+                {logo}
+              </div>
+            ) : (
+              <AvatarFallback className="flex items-center justify-center">
+                {getFallbackIcon()}
+              </AvatarFallback>
+            )
           )}
         </Avatar>
         <div>
