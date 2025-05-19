@@ -48,7 +48,7 @@ const Projects = () => {
       tags: ["EdTech", "Startup", "iOS", "Education", "Mathematics"],
       link: "https://www.magma.se/",
       highlighted: true,
-      logo: <Projector className="h-6 w-6 text-primary" />,
+      logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/ff/5a/ed/ff5aede4-2c91-cf70-9d2b-3ec9730c4aa8/source/512x512bb.jpg",
     },
   ];
 
