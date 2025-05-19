@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Package, Code, Database, Box, Projector } from "lucide-react";
+import { ExternalLink, Github, Square } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export interface ProjectCardProps {
@@ -28,14 +28,9 @@ const ProjectCard = ({
   highlighted = false,
   logo,
 }: ProjectCardProps) => {
-  // Helper to determine which icon to show as fallback
+  // Default fallback is now a simple Square icon
   const getFallbackIcon = () => {
-    const lowerTitle = title.toLowerCase();
-    if (lowerTitle.includes('ddd') || lowerTitle.includes('dependency')) return <Code className="h-6 w-6" />;
-    if (lowerTitle.includes('banking')) return <Database className="h-6 w-6" />;
-    if (lowerTitle.includes('orientera')) return <Box className="h-6 w-6" />;
-    if (lowerTitle.includes('magma') || lowerTitle.includes('matteappen')) return <Projector className="h-6 w-6" />;
-    return <Package className="h-6 w-6" />;
+    return <Square className="h-6 w-6 text-muted-foreground" />;
   };
   
   return (
