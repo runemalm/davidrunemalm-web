@@ -2,7 +2,8 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Square } from "lucide-react";
+import { ExternalLink, Github, Square, Package, Banknote } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export interface ProjectCardProps {
   title: string;
@@ -44,15 +45,13 @@ const ProjectCard = ({
         </div>
       )}
       <CardHeader className="flex flex-row items-center gap-4">
-        <div className="h-12 w-12 rounded-full border bg-muted flex items-center justify-center flex-shrink-0">
+        <Avatar className="h-12 w-12 border bg-muted">
           {typeof logo === 'string' ? (
-            <img src={logo} alt={`${title} logo`} className="max-h-full max-w-full object-contain" />
+            <AvatarImage src={logo} alt={`${title} logo`} />
           ) : (
-            <div className="flex items-center justify-center h-full w-full">
-              {logo || getFallbackIcon()}
-            </div>
+            logo || <AvatarFallback>{getFallbackIcon()}</AvatarFallback>
           )}
-        </div>
+        </Avatar>
         <div>
           <CardTitle>{title}</CardTitle>
           <CardDescription>{role}</CardDescription>
