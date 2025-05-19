@@ -39,7 +39,7 @@ const Projects = () => {
       tags: ["Mobile App", "Web App", "AI", "Sports Tech", "React", "Python"],
       link: "https://orientera.com",
       highlighted: true,
-      logo: <Box className="h-6 w-6 text-primary" />,
+      logo: "https://orientera.com/icons/apple-touch-icon.png",
     },
     {
       title: "Magma (formerly Matteappen)",
