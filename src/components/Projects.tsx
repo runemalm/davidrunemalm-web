@@ -25,6 +25,7 @@ const Projects = () => {
       description: "Developed a scalable fintech solution for open banking, demonstrating secure API integration with banking systems, transaction processing, and financial data aggregation.",
       role: "Lead Developer",
       tags: ["Fintech", "APIs", "Scalability", "Security", "Cloud"],
+      github: "https://github.com/runemalm/open-banking-poc",
       highlighted: true,
     },
     {
