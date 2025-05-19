@@ -12,7 +12,7 @@ const Projects = () => {
       tags: ["Open Source", ".NET", "DDD", "C#", "Architecture"],
       github: "https://github.com/runemalm/OpenDDD.NET",
       highlighted: true,
-      logo: <Code className="h-6 w-6 text-primary" />,
+      logo: "https://www.openddd.net/icons/web-app-manifest-192x192.png",
     },
     {
       title: "py-dependency-injection",
