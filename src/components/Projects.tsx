@@ -9,7 +9,7 @@ const Projects = () => {
       description: "An open-source toolkit for implementing Domain-Driven Design (DDD) patterns in .NET applications. Simplifies the development of complex business applications by providing a robust framework for DDD concepts.",
       role: "Creator & Maintainer",
       tags: ["Open Source", ".NET", "DDD", "C#", "Architecture"],
-      github: "https://github.com/openddd/openddd-dotnet",
+      github: "https://github.com/runemalm/OpenDDD.NET",
       highlighted: true,
     },
     {
@@ -17,7 +17,7 @@ const Projects = () => {
       description: "A lightweight Python library for dependency injection, making code more modular, testable, and maintainable. Designed to be simple yet powerful for Python applications of all sizes.",
       role: "Creator & Maintainer",
       tags: ["Open Source", "Python", "Dependency Injection", "Architecture"],
-      github: "https://github.com/davidrunemalm/py-dependency-injection",
+      github: "https://github.com/runemalm/py-dependency-injection",
       highlighted: true,
     },
     {
@@ -40,6 +40,7 @@ const Projects = () => {
       description: "An educational product for mathematics education using iPads in schools. Features interactive exercises, progress tracking, and personalized learning paths for students.",
       role: "Founder & Developer",
       tags: ["EdTech", "Startup", "iOS", "Education", "Mathematics"],
+      link: "https://www.magma.se/",
       highlighted: true,
     },
   ];
