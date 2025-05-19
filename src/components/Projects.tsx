@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import { Square } from "lucide-react";
+import { Square, Package, Banknote } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -21,7 +21,7 @@ const Projects = () => {
       tags: ["Open Source", "Python", "Dependency Injection", "Architecture"],
       github: "https://github.com/runemalm/py-dependency-injection",
       highlighted: true,
-      logo: <Square className="h-6 w-6 text-muted-foreground" />,
+      logo: <Package className="h-6 w-6 text-primary" strokeWidth={1.5} />,
     },
     {
       title: "Open Banking POC",
@@ -30,7 +30,7 @@ const Projects = () => {
       tags: ["Fintech", "APIs", "Scalability", "Security", "Cloud"],
       github: "https://github.com/runemalm/open-banking-poc",
       highlighted: true,
-      logo: <Square className="h-6 w-6 text-muted-foreground" />,
+      logo: <Banknote className="h-6 w-6 text-primary" strokeWidth={1.5} />,
     },
     {
       title: "Orientera.com",
