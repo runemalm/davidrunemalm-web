@@ -44,7 +44,7 @@ const Projects = () => {
     {
       title: "Matteappen",
       description: "An educational product (now called Magma) for mathematics education using iPads in schools. Features interactive exercises, progress tracking, and personalized learning paths for students.",
-      role: "Founder & Developer",
+      role: "Co-Founder & Developer",
       tags: ["EdTech", "Startup", "iOS", "Education", "Mathematics"],
       link: "https://www.magma.se/",
       highlighted: true,
