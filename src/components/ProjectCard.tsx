@@ -45,27 +45,11 @@ const ProjectCard = ({
         </div>
       )}
       <CardHeader className="flex flex-row items-center gap-4">
-        <Avatar className="h-12 w-12 flex-shrink-0 border bg-muted flex items-center justify-center">
+        <Avatar className="h-12 w-12 border bg-muted">
           {typeof logo === 'string' ? (
-            <AvatarImage 
-              src={logo} 
-              alt={`${title} logo`} 
-              className="object-contain p-1" 
-            />
+            <AvatarImage src={logo} alt={`${title} logo`} />
           ) : (
-            logo ? (
-              <div className="flex items-center justify-center h-full w-full">
-                {React.isValidElement(logo) && 
-                  React.cloneElement(logo as React.ReactElement, {
-                    className: `${(logo as React.ReactElement).props.className || ''} max-h-6 max-w-6`
-                  })
-                }
-              </div>
-            ) : (
-              <AvatarFallback className="flex items-center justify-center">
-                {getFallbackIcon()}
-              </AvatarFallback>
-            )
+            logo || <AvatarFallback>{getFallbackIcon()}</AvatarFallback>
           )}
         </Avatar>
         <div>
