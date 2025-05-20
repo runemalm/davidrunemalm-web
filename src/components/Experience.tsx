@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Briefcase, School } from 'lucide-react';
 
@@ -36,24 +35,10 @@ const TimelineItem = ({
 const Experience = () => {
   const experiences = [
     {
-      year: "2022 - Present",
+      year: "2019 - Present",
       title: "Senior Software Engineer (AI Focus)",
-      organization: "Freelance & Employed Roles",
-      description: "Delivering high-impact software across a variety of projects, both as a freelance engineer and in full-time roles. Focused on clean architecture, developer experience, and modern best practices.",
-      type: "work"
-    },
-    {
-      year: "2021 - 2022",
-      title: "Software Engineer Consultant",
-      organization: "Valtech AB",
-      description: "Joined one of the largest consultancy firms to work with a former major bank. Contributed to critical systems and proposed significant improvements to the existing codebase.",
-      type: "work"
-    },
-    {
-      year: "2019 - 2021",
-      title: "Software Engineer",
-      organization: "NuvoAir AB",
-      description: "Moved to Stockholm to join an innovative medtech startup. Played a key role in building the clinical trials platform. Developed the \"over-reading\" feature, which received strong praise from clinical staff for its usability and impact.",
+      organization: "Various Freelance & Employed Roles",
+      description: "Working at the intersection of software engineering and artificial intelligence across multiple organizations and freelance engagements. Led development of critical features for a medtech startup's clinical trials platform, built innovative solutions for a major bank as a consultant, and delivered high-impact AI-powered applications for various clients. Consistently focused on creating clean, maintainable code and exceptional user experiences across different domains including healthcare, finance, and enterprise software.",
       type: "work"
     },
     {
