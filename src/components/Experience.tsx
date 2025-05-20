@@ -44,7 +44,7 @@ const Experience = () => {
     },
     {
       year: "2018",
-      title: "Freelance Developer → Tech Lead",
+      title: "Tech Lead",
       organization: "Sendify AB",
       description: "Initially brought in as a freelance engineer to deliver a passport distribution system in the logistics domain—praised by the CEO for its simplicity and effectiveness.\n\nFollowing the success of that project, I was brought on as Tech Lead to guide the in-house team in evolving Sendify's core freight booking platform.",
       type: "work"
@@ -75,7 +75,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-16 bg-muted/50">
       <div className="container">
-        <h2 className="text-3xl font-bold tracking-tight text-center mb-12">Experience & Education</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-center mb-12">Experience</h2>
         <div className="max-w-3xl mx-auto">
           {experiences.map((exp, index) => (
             <TimelineItem 
