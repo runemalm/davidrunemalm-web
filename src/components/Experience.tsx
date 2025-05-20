@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Briefcase, School } from 'lucide-react';
 
@@ -38,7 +39,7 @@ const Experience = () => {
       year: "2019 - Present",
       title: "Senior Software Engineer (AI Focus)",
       organization: "Various Freelance & Employed Roles",
-      description: "Delivered critical features across healthcare, finance, and enterprise clients while maintaining high code quality standards. Created OpenDDD.NET, an open-source toolkit for implementing Domain-Driven Design patterns in .NET, and py-dependency-injection, a lightweight Python library for dependency injection. Led development of an AI-powered chat assistant at orientera.com that enhanced user navigation and provided real-time guidance for the orienteering community.",
+      description: "Worked in various roles as senior software engineer, consultant, and freelance engineer across medtech, fintech, and enterprise domains. Deepened knowledge in domain-driven design and modern software architecture while exploring the latest advancements in artificial intelligence. Contributed to open source by creating and maintaining projects like OpenDDD.NET (a toolkit for DDD patterns in .NET) and py-dependency-injection. Recently led development of an AI-powered chat assistant for orientera.com, enhancing user navigation and providing real-time guidance.",
       type: "work"
     },
     {
