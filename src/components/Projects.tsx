@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import { Square, Package, Banknote } from "lucide-react";
@@ -15,7 +16,7 @@ const Projects = () => {
     },
     {
       title: "py-dependency-injection",
-      description: "A lightweight Python library for dependency injection, making code more modular, testable, and maintainable. Designed to be simple yet powerful for Python applications of all sizes.",
+      description: "A lightweight Python library for dependency injection, making code more modular, testable, and maintainable. Designed to be simple yet powerful for Python applications of all sizes. Includes comprehensive documentation with examples and best practices.",
       role: "Creator & Maintainer",
       tags: ["Open Source", "Python", "Dependency Injection", "Architecture", "Design Patterns", "Simplicity"],
       github: "https://github.com/runemalm/py-dependency-injection",
