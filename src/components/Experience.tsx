@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Briefcase, School } from 'lucide-react';
 
@@ -38,7 +39,7 @@ const Experience = () => {
       year: "2019 - Present",
       title: "Senior Software Engineer (AI Focus)",
       organization: "Various Freelance & Employed Roles",
-      description: "Working at the intersection of software engineering and artificial intelligence across multiple organizations and freelance engagements. Led development of critical features for a medtech startup's clinical trials platform, built innovative solutions for a major bank as a consultant, and delivered high-impact AI-powered applications for various clients. Consistently focused on creating clean, maintainable code and exceptional user experiences across different domains including healthcare, finance, and enterprise software.",
+      description: "Deepened my expertise as a senior software engineer across multiple organizations and freelance engagements. Pioneered development of agentic AI solutions at orientera.com, creating intelligent autonomous systems that revolutionized how users interact with navigation and mapping data. Led development of critical features for healthcare platforms, financial institutions, and enterprise clients, consistently delivering high-quality code and exceptional user experiences. Maintained focus on architectural best practices, mentoring junior developers, and driving technical innovation across diverse domains.",
       type: "work"
     },
     {
