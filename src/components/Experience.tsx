@@ -39,7 +39,7 @@ const Experience = () => {
       year: "2019 - Present",
       title: "Senior Software Engineer (AI Focus)",
       organization: "Various Freelance & Employed Roles",
-      description: "Lead developer on AI-powered solutions across multiple organizations and freelance projects. Created agentic AI systems at orientera.com that transformed navigation experiences. Delivered critical features for healthcare, finance, and enterprise clients while maintaining code quality and mentoring junior developers.",
+      description: "Led development of an AI-powered chat assistant at orientera.com that enhanced user navigation and provided real-time guidance for the orienteering community. Created OpenDDD.NET, an open-source toolkit for implementing Domain-Driven Design patterns in .NET, and py-dependency-injection, a lightweight Python library for dependency injection—both reflecting my commitment to open-source software. Delivered critical features across healthcare, finance, and enterprise clients while maintaining high code quality standards.",
       type: "work"
     },
     {
