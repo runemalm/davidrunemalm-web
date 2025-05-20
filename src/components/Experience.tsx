@@ -1,19 +1,21 @@
 
 import React from 'react';
-import { Briefcase, School } from 'lucide-react';
+import { Briefcase, School, Check } from 'lucide-react';
 
 const TimelineItem = ({ 
   year, 
   title, 
   organization, 
   description,
-  type = "work"  // Default to work, can be "education" or "work"
+  type = "work",  // Default to work, can be "education" or "work"
+  bulletPoints = []
 }: { 
   year: string; 
   title: string; 
   organization: string; 
   description: string;
   type?: "education" | "work";
+  bulletPoints?: string[];
 }) => {
   return (
     <div className="relative pl-8 pb-12 last:pb-0">
@@ -28,7 +30,18 @@ const TimelineItem = ({
       <div className="font-bold text-primary mb-1">{year}</div>
       <h3 className="text-lg font-bold">{title}</h3>
       <p className="text-muted-foreground mb-3">{organization}</p>
-      <p className="whitespace-pre-line">{description}</p>
+      <p className="mb-3">{description}</p>
+      
+      {bulletPoints.length > 0 && (
+        <ul className="space-y-2">
+          {bulletPoints.map((point, index) => (
+            <li key={index} className="flex items-start">
+              <Check className="h-4 w-4 text-primary mr-2 mt-1 flex-shrink-0" />
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };
@@ -37,10 +50,15 @@ const Experience = () => {
   const experiences = [
     {
       year: "2019 - Present",
-      title: "Senior Software Engineer (AI-Focused)",
+      title: "Senior Software Engineer · AI-Focused Freelance & Product Roles",
       organization: "Various Organizations",
-      description: "Worked across medtech, fintech, and enterprise domains as a senior engineer, consultant, and freelancer.\nDeepened expertise in Domain-Driven Design, modern software architecture, and AI-driven development.\n\n- Created and maintain OpenDDD.NET, a framework for DDD in .NET\n- Built py-dependency-injection, a lightweight Python DI library\n- Recently led development of an AI-powered assistant for orientera.com to guide users with real-time competition insights",
-      type: "work"
+      description: "Worked across medtech, fintech, and enterprise domains as a senior engineer, consultant, and freelancer. Deepened expertise in Domain-Driven Design, modern software architecture, and AI-driven development.",
+      type: "work",
+      bulletPoints: [
+        "Created and maintain OpenDDD.NET, a toolkit for DDD in .NET",
+        "Built py-dependency-injection, a lightweight Python DI library",
+        "Recently led development of an AI-powered assistant for orientera.com to guide users with real-time competition insights"
+      ]
     },
     {
       year: "2018",
@@ -85,6 +103,7 @@ const Experience = () => {
               organization={exp.organization}
               description={exp.description}
               type={exp.type as "education" | "work"}
+              bulletPoints={exp.bulletPoints}
             />
           ))}
         </div>
