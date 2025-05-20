@@ -7,7 +7,7 @@ const Projects = () => {
   const projects = [
     {
       title: "OpenDDD.NET",
-      description: "An open-source toolkit for implementing Domain-Driven Design (DDD) patterns in .NET applications. Simplifies the development of complex business applications by providing a robust framework for DDD concepts.",
+      description: "An open-source framework for implementing Domain-Driven Design (DDD) patterns in .NET applications. Simplifies the development of complex business applications by providing a robust framework for DDD concepts.",
       role: "Creator & Maintainer",
       tags: ["Open Source", ".NET", "DDD", "C#", "Architecture"],
       github: "https://github.com/runemalm/OpenDDD.NET",
@@ -25,7 +25,7 @@ const Projects = () => {
     },
     {
       title: "Open Banking POC",
-      description: "Developed a scalable fintech solution for open banking, demonstrating secure API integration with banking systems, transaction processing, and financial data aggregation.",
+      description: "Developed a scalable fintech solution for open banking, demonstrating integrating with banks to perform AIS and/or PIS according to the PSD2 directive. Including a framework for efficiently scaling organization with teams around integrations.",
       role: "Lead Developer",
       tags: ["Fintech", "APIs", "Scalability", "Security", "Cloud"],
       github: "https://github.com/runemalm/open-banking-poc",

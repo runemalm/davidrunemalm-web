@@ -24,7 +24,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-bold text-center mb-2">Open Source</h3>
                 <p className="text-muted-foreground text-center">
-                  Contributing to and maintaining open-source projects like OpenDDD.NET and py-dependency-injection.
+                  Creating and maintaining open-source projects like OpenDDD.NET and py-dependency-injection.
                 </p>
               </CardContent>
             </Card>
@@ -36,7 +36,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-bold text-center mb-2">Entrepreneurship</h3>
                 <p className="text-muted-foreground text-center">
-                  Founded and successfully exited Magma (formerly Matteappen), an edtech startup revolutionizing math education with iPads in schools.
+                  Founded and successfully exited Matteappen (now Magma), an edtech startup revolutionizing math education with iPads in schools.
                 </p>
               </CardContent>
             </Card>
