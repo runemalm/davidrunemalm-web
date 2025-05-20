@@ -34,7 +34,7 @@ const Projects = () => {
     },
     {
       title: "Orientera.com",
-      description: "A comprehensive app for the orienteering community featuring event management, maps, results, and an innovative AI chat assistant to answer questions and provide guidance to users.",
+      description: "An intuitive app for orienteering enthusiasts that simplifies competition planning, provides quick access to start times and results, and offers an effortless way to navigate the orienteering season. Features a clean interface designed for athletes and spectators alike.",
       role: "Senior Developer",
       tags: ["Mobile App", "Web App", "AI", "Sports Tech", "React", "Python"],
       link: "https://orientera.com",
