@@ -39,7 +39,7 @@ const Experience = () => {
       year: "2019 - Present",
       title: "Senior Software Engineer (AI Focus)",
       organization: "Various Freelance & Employed Roles",
-      description: "Deepened my expertise as a senior software engineer across multiple organizations and freelance engagements. Pioneered development of agentic AI solutions at orientera.com, creating intelligent autonomous systems that revolutionized how users interact with navigation and mapping data. Led development of critical features for healthcare platforms, financial institutions, and enterprise clients, consistently delivering high-quality code and exceptional user experiences. Maintained focus on architectural best practices, mentoring junior developers, and driving technical innovation across diverse domains.",
+      description: "Lead developer on AI-powered solutions across multiple organizations and freelance projects. Created agentic AI systems at orientera.com that transformed navigation experiences. Delivered critical features for healthcare, finance, and enterprise clients while maintaining code quality and mentoring junior developers.",
       type: "work"
     },
     {
