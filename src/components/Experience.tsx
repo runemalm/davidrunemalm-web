@@ -50,13 +50,13 @@ const Experience = () => {
   const experiences = [
     {
       year: "2019 - Present",
-      title: "Senior Software Engineer · AI-Focused Freelance & Product Roles",
+      title: "Senior Software Engineer (AI-Focused)",
       organization: "Various Organizations",
-      description: "Worked across medtech, fintech, and enterprise domains as a senior engineer, consultant, and freelancer. Deepened expertise in Domain-Driven Design, modern software architecture, and AI-driven development.",
+      description: "Worked across medtech, fintech, and enterprise domains as a senior engineer, consultant, and freelancer. Deepened expertise in Domain-Driven Design, modern software architecture, Clean Code, and AI-driven development.",
       type: "work",
       bulletPoints: [
-        "Created and maintain OpenDDD.NET, a toolkit for DDD in .NET",
-        "Built py-dependency-injection, a lightweight Python DI library",
+        "Created and maintain OpenDDD.NET, a framework for DDD in .NET",
+        "Built py-dependency-injection, an easy-to-use yet powerful Python DI library",
         "Recently led development of an AI-powered assistant for orientera.com to guide users with real-time competition insights"
       ]
     },
@@ -64,7 +64,7 @@ const Experience = () => {
       year: "2018",
       title: "Tech Lead",
       organization: "Sendify AB",
-      description: "Initially brought in as a freelance engineer to deliver a passport distribution system in the logistics domain—praised by the CEO for its simplicity and effectiveness.\n\nFollowing the success of that project, I was brought on as Tech Lead to guide the in-house team in evolving Sendify's core freight booking platform.",
+      description: "Initially brought in as a freelance software engineer to deliver a passport distribution system in the logistics domain—praised by the CEO for its simplicity and effectiveness.\n\nFollowing the success of that project, I was brought on as Tech Lead to guide the in-house team in evolving Sendify's core freight booking platform.",
       type: "work"
     },
     {
