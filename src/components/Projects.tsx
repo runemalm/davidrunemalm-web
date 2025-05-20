@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import { Square, Package, Banknote } from "lucide-react";
@@ -10,8 +9,7 @@ const Projects = () => {
       description: "An open-source framework for implementing Domain-Driven Design (DDD) patterns in .NET applications. Simplifies the development of complex business applications by providing a robust framework for DDD concepts. Features comprehensive documentation to help developers get started.",
       role: "Creator & Maintainer",
       tags: ["Open Source", ".NET", "DDD", "C#", "Architecture", "Clean Code"],
-      github: "https://github.com/runemalm/OpenDDD.NET",
-      link: "https://docs.openddd.net/",
+      link: "https://www.openddd.net",
       highlighted: true,
       logo: "https://www.openddd.net/icons/web-app-manifest-192x192.png",
     },
