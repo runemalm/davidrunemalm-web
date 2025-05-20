@@ -25,7 +25,7 @@ const Projects = () => {
     },
     {
       title: "Open Banking POC",
-      description: "Developed a scalable fintech solution for open banking, demonstrating integrating with banks to perform AIS and/or PIS according to the PSD2 directive. Including a framework for efficiently scaling organization with teams around integrations.",
+      description: "Built a modular fintech platform demonstrating PSD2-compliant open banking capabilities. Implemented secure API integrations with banking providers for account information and payment initiation services, with a team-based architecture for seamless scaling.",
       role: "Lead Developer",
       tags: ["Fintech", "APIs", "Scalability", "Security", "Cloud"],
       github: "https://github.com/runemalm/open-banking-poc",
