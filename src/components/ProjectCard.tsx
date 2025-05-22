@@ -41,10 +41,10 @@ const ProjectCard = ({
   
   // Convert newlines to proper line breaks
   const formattedDescription = description.split('\n').map((text, index) => (
-    <React.Fragment key={index}>
+    <span key={index}>
       {text}
       {index < description.split('\n').length - 1 && <br />}
-    </React.Fragment>
+    </span>
   ));
   
   return (
