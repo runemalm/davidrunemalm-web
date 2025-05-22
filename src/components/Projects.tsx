@@ -25,7 +25,7 @@ const Projects = () => {
       documentation: "https://py-dependency-injection.readthedocs.io/",
       highlighted: true,
       logo: "https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj",
-      githubText: "GitHub",
+      githubText: "Code",
     },
     {
       title: "Open Banking POC",
@@ -35,7 +35,7 @@ const Projects = () => {
       github: "https://github.com/runemalm/open-banking-poc",
       highlighted: true,
       logo: "https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj",
-      githubText: "GitHub",
+      githubText: "Code",
     },
     {
       title: "Orientera.com",
@@ -54,7 +54,7 @@ const Projects = () => {
       tags: ["EdTech", "Startup", "Lean", "MVP", "iOS", "Education", "Mathematics", "AI", "Computer Vision", "ML"],
       link: "https://www.magma.se/",
       highlighted: true,
-      logo: "https://www.davidrunemalm.com/images/mebox_logo.jpeg",
+      logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/ff/5a/ed/ff5aede4-2c91-cf70-9d2b-3ec9730c4aa8/source/512x512bb.jpg",
       linkText: "Homepage",
     },
     {
@@ -80,4 +80,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
