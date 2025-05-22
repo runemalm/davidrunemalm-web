@@ -1,5 +1,5 @@
-
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -7,13 +7,29 @@ import { Label } from "@/components/ui/label";
 import { Github, Mail } from "lucide-react";
 import { toast } from "@/components/ui/sonner";
 
+const SERVICE_ID = 'davidrunemalm_service';
+const TEMPLATE_ID = 'template_o1gz46r';
+const PUBLIC_KEY = 'Fi1hCRMY3gpbecXDb';
+
 const Contact = () => {
+
+  const formRef = useRef<HTMLFormElement>(null);
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // In a real application, you would handle the form submission here
-    toast.success("Message sent! I'll get back to you soon.", {
-      description: "Thank you for reaching out."
-    });
+    if (!formRef.current) return;
+
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current, PUBLIC_KEY)
+      .then(() => {
+        toast.success("Message sent! I'll get back to you soon.", {
+          description: "Thank you for reaching out."
+        });
+        formRef.current.reset(); // Optional: clears form after success
+      })
+      .catch((err) => {
+        console.error("EmailJS Error:", err);
+        toast.error("Failed to send message. Please try again.");
+      });
   };
 
   return (
@@ -48,19 +64,20 @@ const Contact = () => {
         
         <Card>
           <CardContent className="pt-6">
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="name">Name</Label>
-                <Input id="name" placeholder="Your name" required />
+                <Input id="name" name="name" placeholder="Your name" required />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" type="email" placeholder="Your email" required />
+                <Input id="email" name="email" type="email" placeholder="Your email" required />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="message">Message</Label>
                 <textarea 
                   id="message" 
+                  name="message" 
                   className="flex min-h-[120px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                   placeholder="Your message"
                   required
