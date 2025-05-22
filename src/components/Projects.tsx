@@ -7,7 +7,7 @@ const Projects = () => {
   const projects = [
     {
       title: "OpenDDD.NET",
-      description: "OpenDDD.NET is an open-source framework for building scalable and maintainable .NET applications using Domain-Driven Design (DDD). It provides a comprehensive toolset for working with aggregates, repositories, messaging, persistence, and service boundaries—helping developers apply DDD patterns in a practical and structured way.\nDeveloped over several years and multiple iterations (starting with an early version in Python), OpenDDD.NET reflects a deep understanding of software engineering principles and how to align code structure with business complexity and team collaboration. With its third generation first beta release, the framework offers a mature foundation for building complex systems with clarity and intent.",
+      description: "OpenDDD.NET is an open-source framework for building scalable and maintainable .NET applications using Domain-Driven Design (DDD). It provides a comprehensive toolset for working with aggregates, repositories, messaging, persistence, and service boundaries—helping developers apply DDD patterns in a practical and structured way.\n\nDeveloped over several years and multiple iterations (starting with an early version in Python), OpenDDD.NET reflects a deep understanding of software engineering principles and how to align code structure with business complexity and team collaboration. With its third generation first beta release, the framework offers a mature foundation for building complex systems with clarity and intent.",
       role: "Creator & Maintainer",
       tags: ["Open Source", "C#", ".NET", "Domain-Driven Design", "Clean Code", "Architecture", "Software Engineering"],
       link: "https://www.openddd.net",
@@ -16,7 +16,7 @@ const Projects = () => {
     },
     {
       title: "py-dependency-injection",
-      description: "A lightweight Python library for dependency injection, making code more modular, testable, and maintainable. Designed to be simple yet powerful for Python applications of all sizes. Includes comprehensive documentation with examples and best practices. A reflection of my ability to create internal tooling that supports teams in writing cleaner, more maintainable code.",
+      description: "A lightweight Python library for dependency injection, making code more modular, testable, and maintainable. Designed to be simple yet powerful for Python applications of all sizes. Includes comprehensive documentation with examples and best practices.\n\nA reflection of my ability to create internal tooling that supports teams in writing cleaner, more maintainable code.",
       role: "Creator & Maintainer",
       tags: ["Open Source", "Python", "Dependency Injection", "Clean Code", "Documentation", "Internal Tools"],
       github: "https://github.com/runemalm/py-dependency-injection",
@@ -25,7 +25,7 @@ const Projects = () => {
     },
     {
       title: "Open Banking POC",
-      description: "A proof-of-concept showcasing PSD2-compliant open banking capabilities, including account information and payment initiation services. Designed with a modular architecture and multiple integration modes for connecting to banking providers. Built to demonstrate how team-aligned code structure enables scalable, efficient development.\nFuture iterations aim to make integrations autonomous and self-healing, capable of detecting when a bank API changes, reasoning about the cause of failure, and proposing or applying fixes automatically—pushing the boundaries of resilience and intelligent software.",
+      description: "A proof-of-concept showcasing PSD2-compliant open banking capabilities, including account information and payment initiation services. Designed with a modular architecture and multiple integration modes for connecting to banking providers. Built to demonstrate how team-aligned code structure enables scalable, efficient development.\n\nFuture iterations aim to make integrations autonomous and self-healing, capable of detecting when a bank API changes, reasoning about the cause of failure, and proposing or applying fixes automatically—pushing the boundaries of resilience and intelligent software.",
       role: "Lead Developer",
       tags: ["Fintech", "Open Banking", "PSD2", "AIS", "PIS", "Enterprise Architecture", "Team Organization"],
       github: "https://github.com/runemalm/open-banking-poc",
@@ -34,7 +34,7 @@ const Projects = () => {
     },
     {
       title: "Orientera.com",
-      description: "A purpose-driven web app designed to help orienteers focus on what matters most—enjoying the sport. The platform simplifies season planning, provides easy access to competition data, and supports result tracking.\nCurrently building out core features while also exploring frontier AI research to elevate the user experience. Includes an experimental AI Chat Assistant that offers personalized support and modern, intuitive interaction.",
+      description: "A purpose-driven web app designed to help orienteers focus on what matters most—enjoying the sport. The platform simplifies season planning, provides easy access to competition data, and supports result tracking.\n\nCurrently building out core features while also exploring frontier AI research to elevate the user experience. Includes an experimental AI Chat Assistant that offers personalized support and modern, intuitive interaction.",
       role: "Senior Developer",
       tags: ["Mobile App", "Web App", "AI", "LLMs", "Agentic", "Sports Tech", "React", "Python"],
       link: "https://www.orientera.com",
