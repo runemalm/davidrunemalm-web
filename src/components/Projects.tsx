@@ -11,6 +11,7 @@ const Projects = () => {
       role: "Creator & Maintainer",
       tags: ["Open Source", "C#", ".NET", "Domain-Driven Design", "Clean Code", "Architecture", "Software Engineering"],
       link: "https://www.openddd.net",
+      documentation: "https://docs.openddd.net",
       highlighted: true,
       logo: "https://www.openddd.net/icons/web-app-manifest-192x192.png",
       linkText: "Homepage",

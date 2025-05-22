@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Square, Package, Banknote } from "lucide-react";
+import { ExternalLink, Github, Square, Package, Banknote, BookOpen } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export interface ProjectCardProps {
@@ -12,6 +12,7 @@ export interface ProjectCardProps {
   tags: string[];
   link?: string;
   github?: string;
+  documentation?: string;
   image?: string;
   highlighted?: boolean;
   logo?: string | React.ReactNode;
@@ -25,6 +26,7 @@ const ProjectCard = ({
   tags,
   link,
   github,
+  documentation,
   image,
   highlighted = false,
   logo,
@@ -80,7 +82,7 @@ const ProjectCard = ({
           ))}
         </div>
       </CardContent>
-      <CardFooter className="flex gap-2">
+      <CardFooter className="flex gap-2 flex-wrap">
         {link && (
           <Button variant="outline" size="sm" asChild>
             <a href={link} target="_blank" rel="noopener noreferrer">
@@ -94,6 +96,14 @@ const ProjectCard = ({
             <a href={github} target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" />
               Code
+            </a>
+          </Button>
+        )}
+        {documentation && (
+          <Button variant="outline" size="sm" asChild>
+            <a href={documentation} target="_blank" rel="noopener noreferrer">
+              <BookOpen className="mr-2 h-4 w-4" />
+              Documentation
             </a>
           </Button>
         )}
