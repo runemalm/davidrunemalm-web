@@ -43,7 +43,7 @@ const Projects = () => {
     },
     {
       title: "Matteappen",
-      description: "An educational product (now called Magma) for mathematics education using iPads in schools. Features interactive exercises, progress tracking, and personalized learning paths for students.",
+      description: "An iPad-based platform for interactive and personalized math learning in schools. As co-founder and lead engineer, I built the full stack—from the iPad app to the scalable backend infrastructure. The app featured real-time classroom capabilities and cutting-edge AI for handwriting recognition and automated answer evaluation. Successfully deployed in live classrooms across Sweden, the product grew into a widely used educational tool and concluded in a successful exit.",
       role: "Co-Founder & Developer",
       tags: ["EdTech", "Startup", "Lean", "MVP", "iOS", "Education", "Mathematics", "AI", "Computer Vision", "ML"],
       link: "https://www.magma.se/",
