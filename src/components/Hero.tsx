@@ -25,7 +25,7 @@ const Hero = () => {
             David Runemalm
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Software Engineer with 13+ years of experience building impactful applications, 
+            I'm a Senior Software Engineer with 13+ years of experience building impactful applications, 
             with a recent focus on AI-driven and agentic systems.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
