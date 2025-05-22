@@ -33,6 +33,14 @@ const ProjectCard = ({
     return <Square className="h-6 w-6 text-muted-foreground" />;
   };
   
+  // Convert newlines to proper line breaks
+  const formattedDescription = description.split('\n').map((text, index) => (
+    <React.Fragment key={index}>
+      {text}
+      {index < description.split('\n').length - 1 && <br />}
+    </React.Fragment>
+  ));
+  
   return (
     <Card className={highlighted ? "border-primary" : ""}>
       {image && (
@@ -58,7 +66,7 @@ const ProjectCard = ({
         </div>
       </CardHeader>
       <CardContent>
-        <p className="mb-4">{description}</p>
+        <p className="mb-4">{formattedDescription}</p>
         <div className="flex flex-wrap gap-2">
           {tags.map((tag, index) => (
             <span
