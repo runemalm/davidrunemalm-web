@@ -24,7 +24,7 @@ const Projects = () => {
       github: "https://github.com/runemalm/py-dependency-injection",
       documentation: "https://py-dependency-injection.readthedocs.io/",
       highlighted: true,
-      logo: "https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj",
+      logo: "https://www.davidrunemalm.com/images/github_logo.jpg",
       githubText: "Code",
     },
     {
@@ -34,7 +34,7 @@ const Projects = () => {
       tags: ["Fintech", "Open Banking", "PSD2", "AIS", "PIS", "Enterprise Architecture", "Team Organization", "Scaling Out"],
       github: "https://github.com/runemalm/open-banking-poc",
       highlighted: true,
-      logo: "https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj",
+      logo: "https://www.davidrunemalm.com/images/github_logo.jpg",
       githubText: "Code",
     },
     {
@@ -54,7 +54,7 @@ const Projects = () => {
       tags: ["EdTech", "Startup", "Lean", "MVP", "iOS", "Education", "Mathematics", "AI", "Computer Vision", "ML"],
       link: "https://www.magma.se/",
       highlighted: true,
-      logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/ff/5a/ed/ff5aede4-2c91-cf70-9d2b-3ec9730c4aa8/source/512x512bb.jpg",
+      logo: "https://www.davidrunemalm.com/images/matteappen_logo.jpeg",
       linkText: "Homepage",
     },
     {
