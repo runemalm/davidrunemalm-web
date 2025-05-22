@@ -17,6 +17,7 @@ export interface ProjectCardProps {
   highlighted?: boolean;
   logo?: string | React.ReactNode;
   linkText?: string;
+  githubText?: string;
 }
 
 const ProjectCard = ({
@@ -31,6 +32,7 @@ const ProjectCard = ({
   highlighted = false,
   logo,
   linkText = "Visit",
+  githubText = "Code",
 }: ProjectCardProps) => {
   // Default fallback is now a simple Square icon
   const getFallbackIcon = () => {
@@ -95,7 +97,7 @@ const ProjectCard = ({
           <Button variant="outline" size="sm" asChild>
             <a href={github} target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" />
-              Code
+              {githubText}
             </a>
           </Button>
         )}
