@@ -24,6 +24,14 @@ const Projects = () => {
       logo: "https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj",
     },
     {
+      title: "Mebox",
+      description: "An ambitious startup incubated at Chalmers Innovation (now Chalmers Ventures) with angel investment backing. We pioneered early applied AI research using OpenCV, SVMs, and proprietary face recognition technology based on research papers from Facebook. Though it didn't gain market traction, it provided invaluable experience in startup development, fundraising, and cutting-edge AI implementation well before the current AI boom.",
+      role: "Co-Founder & Developer",
+      tags: ["Startup", "AI", "Computer Vision", "Face Recognition", "Machine Learning", "Angel Investment", "Lean Startup", "Slush Conference"],
+      highlighted: true,
+      logo: "https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj",
+    },
+    {
       title: "Open Banking POC",
       description: "A proof-of-concept showcasing PSD2-compliant open banking capabilities, including account information and payment initiation services. Designed with a modular architecture and multiple integration modes for connecting to banking providers. Built to demonstrate how team-aligned code structure enables scalable, efficient development.",
       role: "Lead Developer",
