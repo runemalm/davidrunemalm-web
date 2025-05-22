@@ -13,6 +13,7 @@ const Projects = () => {
       link: "https://www.openddd.net",
       highlighted: true,
       logo: "https://www.openddd.net/icons/web-app-manifest-192x192.png",
+      linkText: "Homepage",
     },
     {
       title: "py-dependency-injection",
