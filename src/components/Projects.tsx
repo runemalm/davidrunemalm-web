@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "Open Banking POC",
       description: "A proof-of-concept showcasing PSD2-compliant open banking capabilities, including account information and payment initiation services. Designed with a modular architecture and multiple integration modes for connecting to banking providers. Built to demonstrate how team-aligned code structure enables scalable, efficient development.",
-      role: "Architect",
+      role: "Software Architect",
       tags: ["Fintech", "Open Banking", "PSD2", "AIS", "PIS", "Enterprise Architecture", "Team Organization", "Scaling Out"],
       github: "https://github.com/runemalm/open-banking-poc",
       highlighted: true,
@@ -40,7 +40,7 @@ const Projects = () => {
     {
       title: "Orientera.com",
       description: "A purpose-driven web app designed to help orienteers focus on what matters most—enjoying the sport. The platform simplifies season planning, provides easy access to competition data, and supports result tracking.\n\nFeatures an innovative AI chat assistant that enhances user experience through personalized assistance and modern interaction.",
-      role: "App Developer",
+      role: "Senior Software Engineer",
       tags: ["Mobile App", "Web App", "AI", "LLMs", "Agentic", "Sports Tech", "React", "Python", "Product"],
       link: "https://www.orientera.com",
       highlighted: true,
