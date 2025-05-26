@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "Open Banking POC",
       description: "A proof-of-concept showcasing PSD2-compliant open banking capabilities, including account information and payment initiation services. Designed with a modular architecture and multiple integration modes for connecting to banking providers. Built to demonstrate how team-aligned code structure enables scalable, efficient development.",
-      role: "Lead Developer",
+      role: "Architect",
       tags: ["Fintech", "Open Banking", "PSD2", "AIS", "PIS", "Enterprise Architecture", "Team Organization", "Scaling Out"],
       github: "https://github.com/runemalm/open-banking-poc",
       highlighted: true,
