@@ -16,7 +16,7 @@ const Hero = () => {
     <section className="py-20 md:py-28 lg:py-32 container">
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
         <Avatar className="h-40 w-40 md:h-64 md:w-64 border-4 border-primary/20">
-          <AvatarImage src="https://www.davidrunemalm.com/images/avatar.jpg" alt="David Runemalm" />
+          <AvatarImage src="https://www.davidrunemalm.com/images/avatar_2_square.jpg" alt="David Runemalm" />
           <AvatarFallback>DR</AvatarFallback>
         </Avatar>
         
