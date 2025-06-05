@@ -44,7 +44,7 @@ const Projects = () => {
       tags: ["Mobile App", "Web App", "AI", "LLMs", "Agentic", "Sports Tech", "React", "Python", "Product"],
       link: "https://www.orientera.com",
       highlighted: true,
-      logo: "https://www.orientera.com/icons/apple-touch-icon.png",
+      logo: "https://orientera.com/icons/apple-touch-icon.png",
       linkText: "App",
     },
     {
