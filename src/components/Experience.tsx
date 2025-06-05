@@ -56,7 +56,7 @@ const Experience = () => {
       type: "work",
       bulletPoints: [
         "Recently built an AI-powered assistant for orientera.com to explore and apply latest R&D in agentic systems.",
-        "Created OpenDDD.NET, a framework for simplified domain-driven design in C# and ASP.NET.",
+        "Created OpenDDD.NET, a framework for simplified domain-driven design in C# and ASP.NET Core.",
         "Built py-dependency-injection, an easy-to-use yet powerful Python DI library"
       ]
     },
