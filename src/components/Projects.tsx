@@ -34,7 +34,7 @@ const Projects = () => {
       github: "https://github.com/runemalm/py-dependency-injection",
       documentation: "https://py-dependency-injection.readthedocs.io/",
       highlighted: true,
-      logo: "https://www.davidrunemalm.com/images/github_logo.jpg",
+      logo: "https://www.davidrunemalm.com/images/py-dependency-injection_logo.png",
       githubText: "Code",
     },
     {
