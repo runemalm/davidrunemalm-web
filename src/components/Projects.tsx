@@ -18,9 +18,19 @@ const Projects = () => {
     },
     {
       title: "py-dependency-injection",
-      description: "A lightweight Python library for dependency injection, making code more modular, testable, and maintainable. Designed to be simple yet powerful for Python applications of all sizes. Includes comprehensive documentation with examples and best practices. Easy for team members to adopt.",
+      description:
+        "A Python library for dependency injection inspired by the built-in DI system in ASP.NET Core. It supports constructor injection, scoped lifetimes, and multiple containers — all through a minimal, explicit API. Designed to encourage clean architecture and testability in Python applications.",
       role: "Creator & Maintainer",
-      tags: ["Open Source", "Python", "Dependency Injection", "Clean Code", "Documentation", "Internal Tools", "Productivity"],
+      tags: [
+        "Open Source",
+        "Python",
+        "Dependency Injection",
+        "ASP.NET Core",
+        "Architecture",
+        "Testability",
+        "Software Design",
+        "Clean Code"
+      ],
       github: "https://github.com/runemalm/py-dependency-injection",
       documentation: "https://py-dependency-injection.readthedocs.io/",
       highlighted: true,
