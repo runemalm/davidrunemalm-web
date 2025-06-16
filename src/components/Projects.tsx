@@ -19,7 +19,7 @@ const Projects = () => {
     {
       title: "py-dependency-injection",
       description:
-        "A Python library for dependency injection inspired by the built-in DI system in ASP.NET Core. It supports constructor injection, scoped lifetimes, and multiple containers — all through a minimal, explicit API. Designed to encourage clean architecture and testability in Python applications.",
+        "A Python library for dependency injection - inspired by ASP.NET Core. It supports constructor injection, scoped lifetimes, and multiple containers — all through a minimal, explicit API. Designed to encourage clean architecture and testability in Python applications.",
       role: "Creator & Maintainer",
       tags: [
         "Open Source",
