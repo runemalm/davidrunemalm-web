@@ -25,8 +25,7 @@ const Hero = () => {
             David Runemalm
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            I'm a Senior Software Engineer with 13+ years of experience building impactful applications, 
-            with a recent focus on AI-driven and agentic systems.
+            I'm a Senior Software Engineer with 14+ years of experience building robust, domain-driven software systems. Specialized in C#/.NET and Python, with a strong focus on architecture, maintainability, and long-term system clarity.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Button size="lg" onClick={() => scrollToSection('projects')}>

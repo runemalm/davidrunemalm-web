@@ -11,9 +11,9 @@ const About = () => {
         
         <div className="max-w-4xl mx-auto">
           <p className="text-lg mb-8">
-            With over 13 years of professional experience, I've explored and built applications across various domains,
-            from educational platforms to fintech solutions. Recently, my focus has shifted towards AI-driven and agentic systems,
-            where I've been developing innovative solutions that leverage the latest in artificial intelligence.
+            I’m a senior software engineer with over 13 years of professional experience building backend-heavy 
+            systems across startups, scale-ups, and consulting engagements. 
+            My work spans multiple domains, including fintech, healthcare, logistics, education, and analytics.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">

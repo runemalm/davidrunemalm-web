@@ -50,14 +50,14 @@ const Experience = () => {
   const experiences = [
     {
       year: "2019 - Present",
-      title: "Senior Software Engineer (with AI Focus)",
+      title: "Software Engineer",
       organization: "Various Organizations",
-      description: "Building products in various employments and freelance contracts across domains such as fintech and medtech. Applying frontier AI tools to explore and push development of tools to assist humanity for my clients and employers.",
+      description: "Senior engineer and consultant working across fintech, healthcare, logistics, property, and analytics platforms. Specialized in software architecture, domain-driven design, testing, and developer productivity, with a consistent focus on improving maintainability, scalability, and delivered speed in complex systems",
       type: "work",
       bulletPoints: [
-        "Recently built an AI-powered assistant for orientera.com to explore and apply latest R&D in agentic systems.",
-        "Created OpenDDD.NET, a framework for simplified domain-driven design in C# and ASP.NET Core.",
-        "Built py-dependency-injection, an easy-to-use yet powerful Python DI library"
+        "Built tooling, development environments, and quality frameworks that significantly reduced lead time and feedback loops.",
+        "Delivered high-impact backend and integration solutions in regulated, domain-heavy environments while remaining fully hands-on.",
+        "Created and maintained multiple open-source software projects for developer productivity."
       ]
     },
     {
@@ -85,7 +85,7 @@ const Experience = () => {
       year: "2000 - 2005",
       title: "Webmaster",
       organization: "Nybro Orienteringsklubb",
-      description: "Built a custom CMS for the local orienteering club before mainstream CMS platforms were common. Developed features like photo galleries, guestbooks, calendars, and news feeds using HTML and PHP—an early and formative project.",
+      description: "Built a custom CMS for the local orienteering club before mainstream CMS platforms were common. Developed features like photo galleries, guestbooks, calendars, and news feeds using HTML and PHP — an early and formative project.",
       type: "work"
     },
   ];
