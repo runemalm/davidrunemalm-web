@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container text-center text-muted-foreground">
         <p>© {currentYear} David Runemalm. All rights reserved.</p>
         <p className="mt-2 text-sm">
-          Software Engineer with expertise in AI-driven applications, 
+          Software Engineer with expertise in testable applications, 
           Domain-Driven Design, and scalable architecture.
         </p>
         <div className="mt-4 flex justify-center gap-4">

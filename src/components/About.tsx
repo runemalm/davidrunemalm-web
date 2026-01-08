@@ -11,7 +11,7 @@ const About = () => {
         
         <div className="max-w-4xl mx-auto">
           <p className="text-lg mb-8">
-            I’m a senior software engineer with over 13 years of professional experience building backend-heavy 
+            I’m a senior software engineer with over 14 years of professional experience building backend-heavy 
             systems across startups, scale-ups, and consulting engagements. 
             My work spans multiple domains, including fintech, healthcare, logistics, education, and analytics.
           </p>
