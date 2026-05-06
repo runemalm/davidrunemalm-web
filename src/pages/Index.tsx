@@ -3,62 +3,66 @@ import React from 'react';
 
 const Index = () => {
   return (
-    <div className="min-h-screen retro-bg font-mono text-white flex flex-col">
-      {/* Top hazard banner */}
-      <div className="hazard-stripes h-8 w-full" />
+    <div className="min-h-screen bg-background text-foreground flex flex-col">
+      <main className="flex-1 flex items-center justify-center px-6 py-16">
+        <div className="w-full max-w-xl">
+          {/* Retro terminal-style card */}
+          <div className="rounded-lg border border-border bg-card shadow-sm overflow-hidden">
+            {/* Title bar — subtle nod to old OS windows */}
+            <div className="flex items-center gap-2 px-4 py-2 border-b border-border bg-muted/60">
+              <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/40" />
+              <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/40" />
+              <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/40" />
+              <span className="ml-2 text-xs font-mono text-muted-foreground tracking-wide">
+                ~/davidrunemalm.com
+              </span>
+            </div>
 
-      <main className="flex-1 flex flex-col items-center justify-center px-4 py-12 text-center">
-        <h1 className="animate-blink text-3xl md:text-5xl font-bold text-yellow-300 [text-shadow:_2px_2px_0_#000] mb-6">
-          ★ Welcome to David Runemalm's Homepage! ★
-        </h1>
+            <div className="px-8 py-12 text-center">
+              {/* Subtle blinking cursor + small icon */}
+              <div className="flex items-center justify-center gap-3 mb-6 text-muted-foreground">
+                <span className="text-2xl" aria-hidden="true">🚧</span>
+                <span className="font-mono text-sm uppercase tracking-[0.2em]">
+                  Under Construction
+                </span>
+                <span className="inline-block w-2 h-4 bg-foreground animate-blink align-middle" />
+              </div>
 
-        <div className="text-7xl md:text-9xl my-6 select-none" aria-hidden="true">
-          🚧 👷 🛠️
-        </div>
+              <h1 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4">
+                David Runemalm
+              </h1>
 
-        <h2 className="text-4xl md:text-6xl font-black tracking-widest text-yellow-300 [text-shadow:_3px_3px_0_#000] mb-4">
-          UNDER CONSTRUCTION
-        </h2>
+              <p className="text-muted-foreground leading-relaxed mb-8">
+                A new version of this site is being built. In the meantime, feel
+                free to reach out — I'd love to hear from you.
+              </p>
 
-        <p className="max-w-xl text-lg md:text-xl text-white [text-shadow:_1px_1px_0_#000] mb-8">
-          This corner of the World Wide Web is being rebuilt from the ground up.
-          Please pardon the dust while the webmaster hammers away!
-        </p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <a
+                  href="mailto:david.runemalm@gmail.com"
+                  className="inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:bg-primary/90 transition-colors"
+                >
+                  Email me
+                </a>
+                <a
+                  href="https://github.com/runemalm"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center justify-center rounded-md border border-input bg-background px-5 py-2.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
 
-        {/* Marquee */}
-        <div className="w-full max-w-3xl border-4 border-yellow-300 bg-black overflow-hidden mb-8">
-          <div className="whitespace-nowrap animate-marquee text-yellow-300 py-2 text-lg">
-            ✦ Coming soon: a brand-new portfolio ✦ Check back later ✦
-            Bookmark this page (Ctrl+D)! ✦ Tell your friends on ICQ! ✦
+            {/* Status bar — old-school footer */}
+            <div className="border-t border-border bg-muted/40 px-4 py-2 font-mono text-[11px] text-muted-foreground flex justify-between">
+              <span>status: rebuilding…</span>
+              <span>last updated: May 2026</span>
+            </div>
           </div>
         </div>
-
-        {/* Hit counter */}
-        <div className="inline-flex items-center gap-2 bg-black border-2 border-white px-4 py-2 mb-8">
-          <span className="text-white text-sm">You are visitor #</span>
-          <span className="font-bold text-2xl tracking-widest text-green-400 bg-black px-2 [font-family:monospace]">
-            0000042
-          </span>
-        </div>
-
-        {/* Contact link */}
-        <p className="mb-2">
-          <a
-            href="mailto:david.runemalm@gmail.com"
-            className="text-cyan-300 underline hover:text-yellow-300 text-lg"
-          >
-            ✉ Sign my guestbook (email me!)
-          </a>
-        </p>
       </main>
-
-      {/* Bottom hazard banner */}
-      <div className="hazard-stripes h-8 w-full" />
-
-      <footer className="bg-black text-center text-xs md:text-sm text-gray-300 py-4 px-2 space-y-1">
-        <p>Best viewed in Netscape Navigator 4.0 at 800×600 resolution</p>
-        <p>Last updated: May 2026 — © David Runemalm</p>
-      </footer>
     </div>
   );
 };
